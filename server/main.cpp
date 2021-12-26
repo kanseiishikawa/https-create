@@ -12,6 +12,8 @@
 #include <string>   //string型
 #include <time.h>
 
+#include "rsa/RSA.h"
+
 int main() {
     int sockfd = socket( AF_INET, SOCK_STREAM, 0 );
     
